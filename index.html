@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Venu Personal Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button class="theme-toggle" id="themeToggle">
+    <ion-icon name="moon-outline" class="moon-icon"></ion-icon>
+    <ion-icon name="sunny-outline" class="sun-icon"></ion-icon>
+  </button>
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/special.jpg" alt="Venu" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="GADDAM VENU">GADDAM VENU</h1>
+          <p class="title">SOFTWARE DEVELOPER</p>
+          <p class="title">GEN AI DEVELOPER</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:nextgencoders2024@gmail.com" class="contact-link">nextgencoders2024@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:7013729015" class="contact-link">7013729015</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2004-04-12">12-04-2004</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Samadapalli, PTM Mandal, Madanapalli Dist, AP</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/venu123/" class="social-link">
+              <ion-icon class="socials-icons" name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/venureddy04" class="social-link">
+              <ion-icon class="socials-icons" name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm <strong><b style="color:var(--accent-color);">GADDAM VENU</b></strong>, a passionate <strong>Software Developer and Generative AI Developer</strong>
+            from <strong style="color:var(--accent-color);">Samadapalli, PTM Mandal, Madanapalli Dist, Andhra Pradesh, India</strong>. I specialize in building intelligent, scalable,
+            and user-friendly applications by combining modern software engineering with AI-driven solutions.
+          </p>
+          <p>
+            My work focuses on developing efficient systems, clean user interfaces, and smart automation
+            using cutting-edge technologies. I enjoy solving real-world problems with code, transforming
+            ideas into reliable digital products, and continuously learning emerging trends in
+            Artificial Intelligence and software development.
+          </p>
+          <p>
+            My goal is to create impactful software solutions that are not only technically strong
+            but also meaningful, practical, and future-ready.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gen AI Developer</h4>
+                <p class="service-item-text">
+                  Modern and high-quality GEN AI applications built with the latest technologies.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="logo-react"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MERN Stack Development</h4>
+                <p class="service-item-text">
+                  Full-stack development using MongoDB, Express, React, and Node.js.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="sparkles-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Solutions</h4>
+                <p class="service-item-text">
+                  Generative AI and machine learning solutions for real-world problems.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Data Analytics</h4>
+                <p class="service-item-text">
+                  Professional development of applications for PowerBI, Big Data.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="location-section">
+        <h3 class="h3 location-title">My Location</h3>
+        <div class="mapbox">
+          <iframe
+            src="https://www.google.com/maps?q=Samadapalli,+Thummarakunta,+Pedda+Thippasamudram,+Madanapalle,+Andhra+Pradesh,+India&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+      </article>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="resume-download">
+          <h3 class="h3 download-title">Download Resume</h3>
+          <div class="resume-buttons">
+            <a href="./assets/resume/resume-software.pdf" download class="resume-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Data Analysis</span>
+            </a>
+            <a href="./assets/resume/resume-ai.pdf" download class="resume-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>AI/ML Engineer</span>
+            </a>
+            <a href="./assets/resume/resume-fullstack.pdf" download class="resume-btn">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Full Stack Developer</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Technology in Computer Science</h4>
+              <span>2022 — 2026</span>
+              <p class="timeline-text">
+                Pursuing B.Tech in CSE(Artificial Intelligence and Machine Learning) with focus on AI/ML and Software Development.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intermediate (12th Grade)</h4>
+              <span>2020 — 2022</span>
+              <p class="timeline-text">
+                Completed intermediate education at Sri Chaitanya Junior College with Mathematics, Physics, and Chemistry.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Secondary School (10th Grade)</h4>
+              <span>2019 — 2020</span>
+              <p class="timeline-text">
+                Completed secondary education at Sri Bhagavan Sai Ram School with distinction in Science and Mathematics.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python & AI/ML</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MERN Stack</h5>
+                <data value="85">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript & React</h5>
+                <data value="88">88%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Database Management</h5>
+                <data value="80">89%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <article class="certifications" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications & Updates</h2>
+        </header>
+        <section class="cert-section">
+          <h3 class="h3 cert-title">Professional Certifications</h3>
+          <ul class="cert-list">
+            <li class="cert-item">
+              <div class="cert-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+              <div class="cert-content">
+                <h4 class="h4 cert-item-title">AWS Certified Generative AI</h4>
+                <p class="cert-issuer">Amazon Web Services</p>
+                <span class="cert-date">Issued: January 2024</span>
+                <a href="https://www.credly.com/badges/440ad4f1-3cee-4dab-91b6-9cdd658385a6/public_url" target="_blank">Certificate</a>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+              <div class="cert-content">
+                <h4 class="h4 cert-item-title">Python Essentials 1 Certificate</h4>
+                <p class="cert-issuer">Cisco & Credially</p>
+                <span class="cert-date">Issued: November 2024</span>
+                 <a href="https://www.credly.com/badges/2fe43159-8139-4d13-a8b2-d3881e398079" target="_blank">Certificate</a>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+              <div class="cert-content">
+                <h4 class="h4 cert-item-title">Data Science Analytics</h4>
+                <p class="cert-issuer">Infosys / SpringBoard</p>
+                <p class="cert-date">Issued: June 2023</p>
+                 <a href="./assets/images/INFOSYS DATA SCIENCE.pdf" target="_blank">Certificate</a>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+              <div class="cert-content">
+                <h4 class="h4 cert-item-title">Cloud Computing</h4>
+                <p class="cert-issuer">IIT / NPTEL </p>
+                <span class="cert-date">Issued: March 2025</span>
+                <a href="./assets/images/Cloud Computing.pdf" target="_blank">Certificate</a>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+              <div class="cert-content">
+                <h4 class="h4 cert-item-title">IOT</h4>
+                <p class="cert-issuer">IIT / NPTEL </p>
+                <span class="cert-date">Issued: March 2026</span>
+                <a href="./assets/images/Introduction to Internet of Things.pdf" target="_blank">Certificate</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="job-updates">
+          <h3 class="h3 updates-title">Job Updates</h3>
+          <ul class="updates-list">
+            <li class="update-item">
+              <div class="update-icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <div class="update-content">
+                <h4 class="h4 update-title">Data Analytics</h4>
+                <p class="update-company">Zaalima Developemnt Pvt.Ltd</p>
+                <p class="update-description">Looking for AI Engineers with experience in Data Analytics. Remote position available.</p>
+                <span class="update-date">Joined at: February 2026</span>
+              </div>
+            </li>
+            <!-- <li class="update-item">
+              <div class="update-icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <div class="update-content">
+                <h4 class="h4 update-title">Full Stack Developer</h4>
+                <p class="update-company">Digital Solutions Inc.</p>
+                <p class="update-description">Seeking Full Stack Developers proficient in MERN stack. Competitive salary and benefits.</p>
+                <span class="update-date">Posted: January 2026</span>
+              </div>
+            </li> -->
+          </ul>
+        </section>
+      </article>
+
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects-section">
+          <ul class="project-list">
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">HealthAssist AI</h3>
+              <p class="project-desc">
+                Hybrid healthcare intelligence system for symptom analysis, emergency guidance, and medical report interpretation.
+              </p>
+              <div class="project-skills">
+                <span>Python</span><span>Mistral</span><span>OCR</span><span>Supabase</span><span>GenAI</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" target="_blank" class="btn live">Live</a>
+                <a href="https://github.com/venureddy04/HealthAssist-AI" target="_blank" class="btn code">GIT HUB</a>
+              </div>
+            </div>
+          </li>
+
+          <!-- 2 -->
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">Course Recommendation System</h3>
+              <p class="project-desc">
+                Personalized course suggestions based on user interests and learning behavior.
+              </p>
+              <div class="project-skills">
+                <span>React</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://venureddy.netlify.app" target="_blank" class="btn live">Live</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">Grocery Management System</h3>
+              <p class="project-desc">
+                Full-stack grocery management application with inventory and billing.
+              </p>
+              <div class="project-skills">
+                <span>Python</span><span>Django</span><span>SQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/venureddy04/Grocery_App" target="_blank" class="btn code">GIT HUB</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">VenuSwar Music AI</h3>
+              <p class="project-desc">
+                Generative AI music recommendation system using Spotify API.
+              </p>
+              <div class="project-skills">
+                <span>Python</span><span>Spotify API</span><span>GenAI</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/venureddy04/Music_Recomended_System" target="_blank" class="btn code">GIT HUB</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">Internal Marks Calculator</h3>
+              <p class="project-desc">
+                Web tool for calculating academic internal marks (R24 regulation).
+              </p>
+              <div class="project-skills">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://venureddy04.github.io/R24-INTERNALMARKS/" target="_blank" class="btn live">Live</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">Automated Exam Builder</h3>
+              <p class="project-desc">
+              Smart Question Generation and Difficulty-Level Calibration
+              </p>
+              <div class="project-skills">
+                <span>Python</span><span>GEN AI</span><span>RAG</span><span>LEMMA</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/venureddy04/Automated-Exam-Builder.git" class="btn code">GIT HUB</a>
+              </div>
+            </div>
+          </li>
+<!-- 
+          <!-- EXTRA 7 -->
+          <!-- <li class="project-item">
+            <div class="project-card">
+              <h3 class="project-title">Chatbot Portfolio Assistant</h3>
+              <p class="project-desc">
+                AI chatbot that answers questions about your portfolio.
+              </p>
+              <div class="project-skills">
+                <span>React</span><span>Gemini API</span><span>Node.js</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn live">Demo</a>
+                <a href="#" class="btn code">Code</a>
+              </div>
+            </div>
+          </li> --> 
+        </ul>
+        </section>
+      </article>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-section">
+          <div class="blog-tabs">
+            <button class="blog-tab active" data-blog-tab="internships">Internships</button>
+            <button class="blog-tab" data-blog-tab="articles">Articles</button>
+            <button class="blog-tab" data-blog-tab="websites">Websites</button>
+          </div>
+          <div class="blog-tab-content active" data-blog-content="internships">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="assets/images/Machine Learnnig with python.pdf" target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="assets/images/ml.jpg" alt="Machine Learning Intern" />
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Internship</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-06">June 2025</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Machine Learning Internship at EI Systems</h3>
+                    <p class="blog-text">
+                      Worked on developing machine learning models for natural language processing and computer vision applications.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a href="./assets/images/AI & PE Cerificate.png",target="_blank">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/AIPE.png" alt="AI and Prompt Engineering Internship" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Internship</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-06">July 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">AI and Prompt Engineering at Vaultofcodes</h3>
+                    <p class="blog-text">
+                      Built scalable AI applications using Python and implemented GEN AI related for various client projects.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <!-- <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/intern-4.jpg" alt="Mobile Development Internship" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Internship</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-01">January 2023</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Mobile App Development at AppWorks</h3>
+                    <p class="blog-text">
+                      Developed cross-platform mobile applications using React Native and implemented modern UI/UX designs.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="blog-tab-content" data-blog-content="articles">
+            <ul class="blog-posts-list">
+              <!-- <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/article-1.jpg" alt="IEEE Publication" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">IEEE</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-11">November 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Deep Learning Approaches for Medical Image Analysis</h3>
+                    <p class="blog-text">
+                      Published in IEEE Transactions on Medical Imaging. Novel convolutional neural network architecture for disease detection.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+              <li class="blog-post-item">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/AIPE.png" alt="IEEE Conference Paper" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">IEEE</p>
+                      <span class="dot"></span>
+                      <time datetime="2026-03">March 2026</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">HealthAssist AI: Hybrid Healthcare Intelligence System</h3>
+                    <p class="blog-text">
+                      Presented at IEEE International Conference on Generative AI. Techniques for model compression and efficient deployment.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <!-- <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/article-3.jpg" alt="Research Paper" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">IEEE</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-04">April 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Natural Language Processing for Sentiment Analysis in Social Media</h3>
+                    <p class="blog-text">
+                      Published in IEEE Access. Comprehensive study on transformer-based models for real-time sentiment classification.
+                    </p>
+                  </div>
+                </a>
+              </li>-->
+            </ul>
+          </div> 
+          <div class="blog-tab-content" data-blog-content="websites">
+            <ul class="blog-posts-list">
+              <!-- <li class="blog-post-item">
+                <a href="venureddyportpolio.netlify.app">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/AIPE.png" alt="E-commerce Website" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Website</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-01">January 2025</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">PortPolio</h3>
+                    <p class="blog-text">
+                      Full-featured online shopping platform with payment integration, inventory management, and admin dashboard.
+                    </p>
+                  </div>
+                </a>
+              </li> -->
+              <li class="blog-post-item">
+                <a href="https://venureddy.netlify.app/">
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/AIPE.png" alt="Educational Platform" loading="lazy">
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Website</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-05">June 2025</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">Online Learning Platform</h3>
+                    <p class="blog-text">
+                      Comprehensive educational website with course management, video streaming, and student progress tracking.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
